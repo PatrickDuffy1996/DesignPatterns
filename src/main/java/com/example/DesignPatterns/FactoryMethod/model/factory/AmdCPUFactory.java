@@ -12,4 +12,7 @@ public class AmdCPUFactory extends CPUFactory {
     return new AmdCPU();
   }
 
+  public String name() {
+    return "AMD";
+  }
 }

@@ -6,10 +6,13 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class IntelCPUFactory extends CPUFactory {
-
       @Override
       public CPU createCPU() {
           return new IntelCPU();
+      }
+
+      public String name() {
+          return "Intel";
       }
 
 }

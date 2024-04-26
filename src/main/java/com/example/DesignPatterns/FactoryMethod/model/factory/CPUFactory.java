@@ -8,5 +8,6 @@ public abstract class CPUFactory {
 
   public abstract CPU createCPU();
 
+  public abstract String name();
 
 }

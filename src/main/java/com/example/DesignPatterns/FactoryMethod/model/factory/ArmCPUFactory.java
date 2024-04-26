@@ -11,5 +11,8 @@ public class ArmCPUFactory extends CPUFactory{
     return new ArmCPU();
   }
 
+  public String name() {
+    return "ARM";
+  }
 
 }
